@@ -24,7 +24,7 @@ import kr.pe.myblog.front.dto.FrontinfoVO;
 public class MemberController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(MemberController.class);
-	
+	String temp="";
 	@Inject
 	private MemberService service;
 	
